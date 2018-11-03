@@ -1,0 +1,13 @@
+---
+layout: default
+title: Portfolio
+---
+<div class="photosContainer">
+    <div id="photos-list" style="display: none">
+        {% for image in site.static_files %}
+        {% if image.path contains 'images/originals' %}
+        <div class="photo-url" data-img-name="{{ site.baseurl }}{{ image.name }}"></div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
