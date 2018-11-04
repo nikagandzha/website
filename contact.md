@@ -3,4 +3,5 @@ layout: default
 title: Contact
 ---
 
-Contact here
+Veronika Gandzha
+<a href="mailto:nikagandzh@gmail.com">Send me email message</a>
